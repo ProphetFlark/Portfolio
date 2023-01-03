@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.fondo {
+  content: "";
+  background-color: rgb(25, 25, 25);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.gradiente {
+  padding-top: 50px;
+  background-color: #f4d03f;
+  background-image: linear-gradient(0deg, #5af7d7 20%, #f4d03f 80%);
+
+  background-size: cover;
+  background-clip: text;
+  box-decoration-break: slice;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(25, 25, 25);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f4d03f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5af7d7;
+}
+
+::-moz-selection {
+  color: snow;
+  background: rgba(244, 208, 63, 0.3);
+}
+
+::selection {
+  color: snow;
+  background: rgba(244, 208, 63, 0.3);
+}

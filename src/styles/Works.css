@@ -1,0 +1,108 @@
+.cuadroHijoPro {
+  background: linear-gradient(
+    0deg,
+    rgba(90, 247, 215, 0.2) 20%,
+    rgba(244, 208, 63, 0.2) 80%
+  );
+  background-size: cover;
+  box-decoration-break: slice;
+  background-attachment: fixed;
+  width: 30vw;
+  height: auto;
+  padding: 1.3rem;
+  margin: 0.7rem;
+  border-radius: 20px;
+}
+
+.imgHijoPro {
+  width: auto;
+  height: 30vh;
+  margin: auto;
+  position: relative;
+}
+
+.imgHijoPro img {
+  max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.aboutPadre .sobremi .cuadrosPadre .cuadroHijoPro h2 {
+  margin-top: 0.4rem;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.tecnoPro p {
+  text-align: center;
+  margin-top: -0.4rem;
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+.divinfoG {
+  width: 100%;
+}
+
+.divinfoG .nombre {
+  width: 85%;
+  float: left;
+}
+
+.github img {
+  padding-top: 30px;
+  max-width: 2rem;
+  filter: brightness(100);
+}
+
+.github img:hover {
+  filter: brightness(0);
+  transition: all 0.1s;
+}
+
+.cuadroHijoPro:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.linkA .cuadroHijoPro .divinfoG .nombre h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.linkA .cuadroHijoPro .divinfoG .tecnoPro p {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+@media (max-width: 700px) {
+  .cuadroHijoPro {
+    width: 75vw;
+    height: auto;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  .imgHijoPro {
+    height: 20vh;
+  }
+
+  .aboutPadre .sobremi .cuadrosPadre .cuadroHijoPro h2 {
+    margin-top: 0rem;
+    white-space: pre-line;
+  }
+  .github img {
+    padding-top: 10px;
+  }
+}

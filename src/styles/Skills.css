@@ -1,0 +1,92 @@
+.cuadrosPadre {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+
+.cuadroHijo {
+  background: linear-gradient(
+    0deg,
+    rgba(90, 247, 215, 0.1) 20%,
+    rgba(244, 208, 63, 0.1) 80%
+  );
+  background-size: cover;
+  box-decoration-break: slice;
+  background-attachment: fixed;
+  width: 10rem;
+  height: auto;
+  padding: 1.3rem;
+  margin: 0.7rem;
+  border-radius: 20px;
+}
+
+.imgHijo {
+  width: 8rem;
+  height: 8rem;
+  margin: auto;
+  position: relative;
+}
+
+.imgHijo img {
+  max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.aboutPadre .sobremi .cuadrosPadre .cuadroHijo h2 {
+  margin-top: 0.4rem;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.starsHijo p {
+  text-align: center;
+  margin-top: -0.4rem;
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 700px) {
+  .cuadrosPadre {
+    width: 100vw;
+    padding-top: 0.5rem;
+    gap: 0rem;
+  }
+
+  .cuadroHijo {
+    width: 6rem;
+    height: auto;
+    padding: 2.3rem;
+    margin: 0rem 0rem 1rem 0rem;
+  }
+
+  .imgHijo {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .starsHijo p {
+    margin-top: -0.1rem;
+    font-size: 1.4rem;
+  }
+
+  .aboutPadre .sobremi .cuadrosPadre .cuadroHijo h2 {
+    font-size: 1.1rem;
+  }
+}
