@@ -13,22 +13,21 @@ const ContactMe = () => {
               <label htmlFor="fname">Nombre: </label>
               <input
                 type="text"
-                id="fname"
-                name="firstname"
+                id="name"
+                name="name"
                 placeholder="Tu nombre"
               />
               <label htmlFor="lname">Correo Electrónico:</label>
               <input
                 type="email"
-                id="lname"
-                name="lastname"
+                name="email"
                 placeholder="Tu correo electrónico"
               />
 
               <label htmlFor="subject">Mensaje:</label>
               <textarea
-                id="subject"
-                name="subject"
+                id="message"
+                name="message"
                 placeholder="Escríbeme algo..."
                 style={{ height: "200px" }}
                 defaultValue={""}
