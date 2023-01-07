@@ -10,7 +10,7 @@ const Studies = () => {
       <section className="timeline-area">
         <div>
           <h2>Universidad Mariano Gálvez de Guatemala</h2>
-          <h3>Ingeniería en Sistemas de la información 8vo. Semestre</h3>
+          <h3>Ingeniería en Sistemas de la información 9no. Semestre</h3>
           <h4>2019 - presente</h4>
         </div>
         <div>

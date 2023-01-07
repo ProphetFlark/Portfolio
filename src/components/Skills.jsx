@@ -75,7 +75,7 @@ const Skills = () => {
           <div className="cuadrosPadre">
             {tecnologias.map(({ nombre, imgurl, stars }) => {
               return (
-                <div className="cuadroHijo">
+                <div key={nombre} className="cuadroHijo">
                   <div className="imgHijo">
                     <img src={imgurl} alt={nombre} />
                   </div>

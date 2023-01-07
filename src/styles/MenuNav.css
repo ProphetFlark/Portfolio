@@ -10,7 +10,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: rgba(25, 25, 25, 0.85);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(4px);
 }
 
 .lineNav {

@@ -14,17 +14,17 @@
 
 @media (max-width: 700px) {
   .top {
-    padding-top: 25vh;
+    padding-top: 22vh;
     text-align: center;
   }
 
   .hijo h1 {
-    font-size: 4rem;
+    font-size: 3.3rem;
     font-weight: 700;
   }
   .top h2 {
     font-weight: 300;
     font-size: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
   }
 }

@@ -26,9 +26,10 @@ const AboutMe = () => {
           emocionado de aplicar mis habiidades y conocimientos para contribuir
           al éxito de una empresa.
         </p>
+
         <div className="button">
           <a href={pdf} className="fontbutton" target="_blank">
-            🡻 ᠎᠎᠎᠎│ DESCARGAR CV
+            &darr; ᠎᠎᠎᠎│ DESCARGAR CV
           </a>
         </div>
       </div>

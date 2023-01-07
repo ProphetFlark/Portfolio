@@ -11,7 +11,7 @@ const Works = () => {
     {
       nombre: "App Clima",
       tecno: "HTML+CSS+ReactJS",
-      url: "https://unique-pixie-a5a0e0.netlify.app/",
+      url: "https://clima-crp.netlify.app",
       img: climafoto,
       github: "https://github.com/ProphetFlark/app-clima-reactJS",
     },
@@ -25,7 +25,7 @@ const Works = () => {
     {
       nombre: "Galería",
       tecno: "ReactJS",
-      url: "https://prophet-imagenes.netlify.app/",
+      url: "https://imagenes-crp.netlify.app/",
       img: galeriaFoto,
       github: "https://github.com/ProphetFlark/galeria-img-react",
     },
@@ -40,7 +40,7 @@ const Works = () => {
           <div className="cuadrosPadre">
             {works.map(({ nombre, tecno, url, img, github }) => {
               return (
-                <a className="linkA" href={url} target="_blank">
+                <a key={nombre} className="linkA" href={url} target="_blank">
                   <div className="cuadroHijoPro">
                     <div className="imgHijoPro">
                       <img src={img} alt={nombre} />

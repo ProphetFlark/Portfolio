@@ -9,29 +9,29 @@ const ContactMe = () => {
         <div className="sobremi">
           <p>Contáctame</p>
           <div className="container">
-            <form name="formulario-portfolio" method="POST" data-netlify="true">
-              <label htmlFor="fname">Nombre: </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Tu nombre"
-              />
-              <label htmlFor="lname">Correo Electrónico:</label>
-              <input
-                type="email"
-                name="email"
-                placeholder="Tu correo electrónico"
-              />
-
-              <label htmlFor="subject">Mensaje:</label>
-              <textarea
-                id="message"
-                name="message"
-                placeholder="Escríbeme algo..."
-                style={{ height: "200px" }}
-                defaultValue={""}
-              />
+            <form name="contact" method="post" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
+              <label>
+                Nombre:
+                <input type="text" name="name" placeholder="Tu nombre" />
+              </label>
+              <label>
+                Correo Electrónico:
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Tu correo electrónico"
+                />
+              </label>
+              <label>
+                Mensaje:
+                <textarea
+                  name="message"
+                  placeholder="Escríbeme algo..."
+                  style={{ height: "200px" }}
+                  defaultValue={""}
+                />
+              </label>
               <div className="submitsub">
                 <input type="submit" defaultValue="Enviar" />
               </div>
