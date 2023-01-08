@@ -25,15 +25,57 @@ nav {
   filter: drop-shadow(0 5px 5px #ffd323);
 }
 
+:root {
+  --text-color: #fff;
+  --cursor-color: #eee;
+}
+
 .logo {
   padding-left: 2rem;
   color: white;
   font-size: 45px;
+  border-right: 30px solid var(--cursor-color);
+
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typewriter 1s steps(3) 1s forwards, blink 3.5s forwards;
+}
+
+@keyframes typewriter {
+  to {
+    width: 3.2ch;
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-right-color: transparent;
+  }
+  16% {
+    border-right-color: var(--cursor-color);
+  }
+  32% {
+    border-right-color: transparent;
+  }
+  48% {
+    border-right-color: var(--cursor-color);
+  }
+  60% {
+    border-right-color: transparent;
+  }
+  72% {
+    border-right-color: var(--cursor-color);
+  }
+  100% {
+    border-right-color: transparent;
+  }
 }
 
 ul li {
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 10px;
 }
 
 .link {
@@ -51,6 +93,7 @@ li:hover {
     padding-left: 1rem;
     color: white;
     font-size: 25px;
+    border-right: 15px solid var(--cursor-color);
     padding: 10px 0px 10px 20px;
   }
   ul li {

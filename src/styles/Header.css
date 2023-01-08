@@ -8,7 +8,22 @@
   font-size: 3rem;
 }
 
-.top h2 {
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --text-color: #fff;
+  --cursor-color: #eee;
+  --characters: 11ch;
+  --characters-steps: 11;
+}
+
+.top .hijo h2 {
+  color: #fff;
   font-size: 2.5rem;
 }
 

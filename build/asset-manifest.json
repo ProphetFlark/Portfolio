@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1de50fb4.css",
+    "main.css": "/static/css/main.bd0dcdb5.css",
     "main.js": "/static/js/main.bc6db492.js",
     "static/media/Cristopher_Paiz_CV.pdf": "/static/media/Cristopher_Paiz_CV.b0013b67b4ac189cabeb.pdf",
     "static/media/profile.png": "/static/media/profile.f14ff25c34584af63e04.png",
     "static/media/clima.png": "/static/media/clima.3b844d96cbaa710ca604.png",
     "static/media/galeria.png": "/static/media/galeria.13abee08e0b2ea7a7ce8.png",
     "index.html": "/index.html",
-    "main.1de50fb4.css.map": "/static/css/main.1de50fb4.css.map",
+    "main.bd0dcdb5.css.map": "/static/css/main.bd0dcdb5.css.map",
     "main.bc6db492.js.map": "/static/js/main.bc6db492.js.map"
   },
   "entrypoints": [
-    "static/css/main.1de50fb4.css",
+    "static/css/main.bd0dcdb5.css",
     "static/js/main.bc6db492.js"
   ]
 }
